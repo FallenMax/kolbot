@@ -16,9 +16,9 @@ function LoadConfig() {
   // User addon script. Read the description in libs/bots/UserAddon.js
   Scripts.UserAddon = false; // !!!YOU MUST SET THIS TO FALSE IF YOU WANT TO RUN BOSS/AREA SCRIPTS!!!
 
-  // /players 3
+  // /playerss 8
   Scripts.PlayerCount = true;
-  Config.PlayerCount.Count = 3;
+  Config.PlayerCount.Count = 8;
 
   // Battle orders script - Use this for 2+ characters (for example BO barb + sorc)
   Scripts.BattleOrders = false;
@@ -27,7 +27,7 @@ function LoadConfig() {
   Config.BattleOrders.Getters = []; // List of players to wait for before casting Battle Orders (mode 0). All players must be in the same area as the BOer.
   Config.BattleOrders.QuitOnFailure = false; // Quit the game if BO fails
   Config.BattleOrders.SkipIfTardy = true; // Proceed with scripts if other players already moved on from BO spot
-  Config.BattleOrders.Wait = 10; // Duration to wait for players to join game in seconds (default: 10)
+  Config.BattleOrders.Wait = 0; // Duration to wait for players to join game in seconds (default: 10)
 
   // Team MF system
   Config.MFLeader = false; // Set to true if you have one or more MFHelpers. Opens TP and gives commands when doing normal MF runs.
@@ -77,8 +77,8 @@ function LoadConfig() {
   Config.Coldworm.KillBeetleburst = false;
   Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
 
-  Scripts.AncientTunnels = false;
-  Config.AncientTunnels.OpenChest = false; // Open special chest in Lost City
+  Scripts.AncientTunnels = true;
+  Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
   Config.AncientTunnels.KillDarkElder = false;
 
   Scripts.Summoner = false;
@@ -101,7 +101,7 @@ function LoadConfig() {
   Scripts.Travincal = false;
   Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 
-  Scripts.Mephisto = true;
+  Scripts.Mephisto = false;
   Config.Mephisto.MoatTrick = true;
   Config.Mephisto.KillCouncil = false;
   Config.Mephisto.TakeRedPortal = true;
@@ -313,8 +313,8 @@ function LoadConfig() {
   Config.HealHP = 50; // Go to a healer if under designated percent of life.
   Config.HealMP = 0; // Go to a healer if under designated percent of mana.
   Config.HealStatus = false; // Go to a healer if poisoned or cursed
-  Config.UseMerc = false; // Use merc. This is ignored and always false in d2classic.
-  Config.MercWatch = false; // Instant merc revive during battle.
+  Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
+  Config.MercWatch = true; // Instant merc revive during battle.
 
   // Potion settings
   Config.UseHP = 75; // Drink a healing potion if life is under designated percent.
@@ -322,7 +322,7 @@ function LoadConfig() {
   Config.UseMP = 30; // Drink a mana potion if mana is under designated percent.
   Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
   Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
-  Config.UseMercRejuv = 0; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
+  Config.UseMercRejuv = 20; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
   Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
   Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
   Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
@@ -340,9 +340,9 @@ function LoadConfig() {
    * 1 = item is unlocked and will be dropped, stashed or sold.
    * If you don't change the default values, the bot won't stash items.
    */
-  Config.Inventory[0] = [0, 0, 0, 0, 1, 1, 1, 0, 0, 0];
-  Config.Inventory[1] = [0, 0, 0, 0, 1, 1, 1, 0, 0, 0];
-  Config.Inventory[2] = [0, 0, 0, 0, 1, 1, 1, 0, 0, 0];
+  Config.Inventory[0] = [0, 0, 0, 0, 0, 1, 1, 0, 0, 0];
+  Config.Inventory[1] = [0, 0, 0, 0, 0, 1, 1, 0, 0, 0];
+  Config.Inventory[2] = [0, 0, 0, 0, 0, 1, 1, 0, 0, 0];
   Config.Inventory[3] = [0, 0, 0, 0, 1, 1, 1, 0, 0, 0];
 
   Config.StashGold = 100000; // Minimum amount of gold to stash.
@@ -431,17 +431,17 @@ function LoadConfig() {
   /* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
    * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
    */
-  Config.Cubing = false; // Set to true to enable cubing.
+  Config.Cubing = true; // Set to true to enable cubing.
 
   // Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-  //Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
-  //Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
-  //Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
-  //Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-  //Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
-  //Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
-  //Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
+  Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+  Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
+  Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
+  Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
+  Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+  Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
+  Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
   //Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
@@ -532,7 +532,7 @@ function LoadConfig() {
   Config.ScanShrines = [];
 
   // MF Switch
-  Config.MFSwitchPercent = 40; // Boss life % to switch to non-primary weapon slot. Set to 0 to disable.
+  Config.MFSwitchPercent = 00; // Boss life % to switch to non-primary weapon slot. Set to 0 to disable.
 
   // Primary Slot - Bot will try to determine primary slot if not used (non-cta slot that's not empty)
   Config.PrimarySlot = 0; // Set to use specific weapon slot as primary weapon slot: -1 = disabled, 0 = slot I, 1 = slot II
@@ -576,9 +576,9 @@ function LoadConfig() {
    */
   Config.AttackSkill[0] = -1; // Preattack skill.
   Config.AttackSkill[1] = 59; // Primary skill to bosses.
-  Config.AttackSkill[2] = -1; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
+  Config.AttackSkill[2] = 55; // Primary untimed skill to bosses. Keep at -1 if Config.AttackSkill[1] is untimed skill.
   Config.AttackSkill[3] = 59; // Primary skill to others.
-  Config.AttackSkill[4] = -1; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
+  Config.AttackSkill[4] = 55; // Primary untimed skill to others. Keep at -1 if Config.AttackSkill[3] is untimed skill.
   Config.AttackSkill[5] = -1; // Secondary skill if monster is immune to primary.
   Config.AttackSkill[6] = -1; // Secondary untimed skill if monster is immune to primary untimed.
 
@@ -600,7 +600,7 @@ function LoadConfig() {
   Config.DodgeRange = 15; // Distance to keep from monsters.
   Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
   Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
-  Config.ClearType = 0xf; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+  Config.ClearType = 0x0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
   Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
   // Clear while traveling during bot scripts
@@ -618,7 +618,7 @@ function LoadConfig() {
   Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 
   // Class specific config
-  Config.CastStatic = 60; // Cast static until the target is at designated life percent. 100 = disabled.
+  Config.CastStatic = 100; // Cast static until the target is at designated life percent. 100 = disabled.
   Config.StaticList = []; // List of monster NAMES or CLASSIDS to static. Example: Config.StaticList = ["Andariel", 243];
 
   /* AutoSkill builds character based on array defined by the user and it replaces AutoBuild's skill system.
