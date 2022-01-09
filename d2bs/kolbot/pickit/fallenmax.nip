@@ -1,4 +1,3 @@
-[name] >= elrune && [name] <= zodrune
 
 [name] == gold # [gold] >= 2000
 
@@ -14,8 +13,7 @@
 [name] == mephisto'sbrain
 [name] == baal'seye
 
-[type] == perfectgem
-[type] == flawlessgem
+[name] >= elrune && [name] <= zodrune
 [type] == rune
 
 [name] == greatermanapotion
@@ -24,8 +22,45 @@
 [name] == rejuvenationpotion
 [name] == fullrejuvenationpotion
 
+[type] == perfectgem
+[type] == flawlessgem
+[name] == perfectamethyst
+[name] == perfecttopaz
+[name] == perfectsapphire
+[name] == perfectemerald
+[name] == perfectruby
+[name] == perfectdiamond
+[name] == perfectskull
+
 // ([quality] == normal || [quality] == superior) && [class] == elite # [sockets] != 1 
 
+//--------rings----------
+
+//          ==rare==
+[name] == ring && [quality] == rare # [fcr] == 10 && [tohit] >= 90 && [maxhp] >= 30 && [maxmana] >= 60 //bvc ring
+[name] == ring && [quality] == rare # [tohit] >= 100 && [strength]+[dexterity] >= 30 //dual stat melee
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [strength]+[dexterity] >= 15 && ([maxhp] >= 30 || [maxmana] >= 60) || [maxhp] >= 30 && [maxmana] >= 60)
+[name] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 12 && [maxhp] >= 30 && ([fireresist] >= 20 || [lightresist] >= 20 || [fireresist] >= 9 && [lightresist] >= 9) //hdin ring
+
+//          ==magic==
+//[name] == ring && [quality] == magic # [fcr] == 10 && [fireresist] >= 15 && [coldresist] >= 15
+//[name] == ring && [quality] == magic # [fcr] == 10 && [maxmana] >= 100
+//[name] == ring && [quality] == magic # [itemmagicbonus] == 40
+
+
+//-------amulets-------
+
+//          ==rare==
+[name] == amulet && [quality] == rare # [sorceressskills] == 2
+[name] == amulet && [quality] == rare # [necromancerskills]+[paladinskills]+[assassinskills] == 2 
+[name] == amulet && [quality] == rare # [amazonskills]+[paladinskills]+[druidskills]+[assassinskills]+[barbarianskills] == 2
+
+//          ==magic==
+[name] == amulet && [quality] == magic # [itemmagicbonus] == 50
+[name] == amulet && [quality] == magic # [warcriesskilltab] == 3
+[name] == amulet && [quality] == magic # ([shadowdisciplinesskilltab] == 3 || [poisonandboneskilltab] == 3 || [palicombatskilltab] == 3) 
+[name] == amulet && [quality] == magic # ([coldskilltab] == 3 || [lightningskilltab] == 3 || [fireskilltab] == 3) 
+[type] == amulet && [quality] == magic # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3)
 
 //------------armor--------------
 
@@ -63,19 +98,13 @@
 
 //-------------circlets----------------
 
-//          ==white==
-
-//          ==unique==
-[name] == tiara && [quality] == unique # [fireresist] == 70 && [plusdefense] == 120 //kira's guardian
-[name] == diadem && [quality] == unique // griffon's eye
-
 //          ==magic==
 [type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] == 3 && ([frw] == 30 || [strength] == 30 || [dexterity] == 30 || [itemmagicbonus] == 35 || [maxhp] == 100 || [fcr] == 20 || [normaldamagereduction] == 25)
 [type] == circlet && [quality] == magic && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([sorceressskills]+[necromancerskills]+[paladinskills]+[assassinskills] == 2)
-[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] >= 10 && ([sorceressskills]+[necromancerskills]+[paladinskills]+[assassinskills] == 2)
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] >= 10 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
 [type] == circlet && [quality] == magic && [flag] != ethereal # [strength] >= 15 && ([shadowdisciplinesskilltab] == 3 || [lightningskilltab] == 3)
-[type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) && [normaldamagereduction] == 25
+[type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) 
 [type] == circlet && [quality] == magic # [barbarianskills] == 2 && [itemgoldbonus] >= 80
 
 //          ==rare==
