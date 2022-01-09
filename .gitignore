@@ -1,0 +1,6 @@
+**/*.log
+**/logs
+d2bs/kolbot/data
+logs
+
+**/*.sen.txt
