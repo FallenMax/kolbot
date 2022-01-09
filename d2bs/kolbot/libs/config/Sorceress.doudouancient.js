@@ -532,7 +532,7 @@ function LoadConfig() {
   Config.ScanShrines = [];
 
   // MF Switch
-  Config.MFSwitchPercent = 00; // Boss life % to switch to non-primary weapon slot. Set to 0 to disable.
+  Config.MFSwitchPercent = 0; // Boss life % to switch to non-primary weapon slot. Set to 0 to disable.
 
   // Primary Slot - Bot will try to determine primary slot if not used (non-cta slot that's not empty)
   Config.PrimarySlot = 0; // Set to use specific weapon slot as primary weapon slot: -1 = disabled, 0 = slot I, 1 = slot II
