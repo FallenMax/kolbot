@@ -366,6 +366,8 @@ function LoadConfig() {
 
   // Pickit config. Default folder is kolbot/pickit.
   Config.PickitFiles.push("fallenmax.nip");
+  Config.PickitFiles.push("fallenmax_set.nip");
+  Config.PickitFiles.push("fallenmax_unique.nip");
   // Config.PickitFiles.push("kolton.nip");
   // Config.PickitFiles.push("LLD.nip");
   Config.PickRange = 40; // Pick radius

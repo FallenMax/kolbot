@@ -1,8 +1,8 @@
 
 [name] == gold # [gold] >= 2000
 
-[quality] == unique
-[quality] == set
+//[quality] == unique
+//[quality] == set
 
 [name] == jewel
 

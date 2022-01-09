@@ -1,0 +1,150 @@
+[name] == amulet && [quality] == unique // cat's eye
+[name] == amulet && [quality] == unique // highlord
+[name] == amulet && [quality] == unique // mara
+[name] == amulet && [quality] == unique // metalgrid
+[name] == balrogskin && [quality] == unique // arkaine's valor
+[name] == barbedshield && [quality] == unique // // swordback hold x1 (noneth/eth)
+[name] == barbedshield && [quality] == unique // lanceguard eth
+[name] == battlebelt && [quality] == unique // && [defense] == 92 // goldwrap x1
+[name] == battlebelt && [quality] == unique // snowclash
+[name] == battleboots && [quality] == unique // // goblin toe x1
+[name] == battleboots && [quality] == unique //war traveler
+[name] == battlegauntlets && [quality] == unique // lava gout
+[name] == battlegauntlets && [quality] == unique // magefist x1
+[name] == battlesword && [quality] == unique // headstriker
+[name] == berserkeraxe && [quality] == unique // death cleaver
+[name] == bladebarrier && [quality] == unique // lanceguard eth x1
+[name] == bladebarrier && [quality] == unique // swordback hold x2 (noneth/eth)
+[name] == bloodlordskull && [quality] == unique // homunculus x1
+[name] == bloodlordskull && [quality] == unique //darkforce spawn
+[name] == bloodspirit && [quality] == unique // cerebus' bite
+[name] == bloodspirit && [quality] == unique // jalal's mane x1
+[name] == boneknife && [quality] == unique //wizardspike
+[name] == bonevisage && [quality] == unique // giant skull
+[name] == boneweaveboots && [quality] == unique // marrowwalk
+[name] == boots && [quality] == unique // hotspur
+[name] == burntwand && [quality] == unique //suicide branch
+[name] == caduceus && [quality] == unique // astreon's iron ward
+[name] == ceremonialjavelin && [quality] == unique // titan's revenge
+[name] == chaingloves && [quality] == unique // chance guard
+[name] == chaosarmor && [quality] == unique // black hades
+[name] == corona && [quality] == unique // crown of ages
+[name] == crusadergauntlets && [quality] == unique // magefist x2
+[name] == crypticaxe && [quality] == unique // tomb reaver
+[name] == cuirass && [quality] == unique // duriel's shell eth
+[name] == dagger && [quality] == unique //gull
+[name] == defender && [quality] == unique // visceratuant
+[name] == demonhead && [quality] == unique
+[name] == demonhead && [quality] == unique // andariel's visage
+[name] == demonhidearmor && [quality] == unique // skin of the flayed one eth
+[name] == demonhideboots && [quality] == unique 
+[name] == demonhideboots && [quality] == unique // hotspur x1
+[name] == demonhideboots && [quality] == unique // infernostride
+[name] == demonhidesash && [quality] == unique // string of ears
+[name] == diadem && [quality] == unique // griffon's eye
+[name] == dimensionalshard && [quality] == unique // death's fathom
+[name] == duskshroud && [quality] == unique //ormus
+[name] == elderstaff && [quality] == unique // ondal's wisdom
+[name] == elderstaff && [quality] == unique //ondal's wisdom
+[name] == eldritchorb && [quality] == unique 
+[name] == eldritchorb && [quality] == unique // eschuta's temper
+[name] == espandon && [quality] == unique // crainte vomir
+[name] == ettinaxe && [quality] == unique //rune master
+[name] == fangedknife && [quality] == unique 
+[name] == fangedknife && [quality] == unique // fleshripper
+[name] == flyingaxe && [quality] == unique // gimmershard
+[name] == furyvisor && [quality] == unique // wolfhowl
+[name] == gauntlets && [quality] == unique // frostburn
+[name] == ghostglaive && [quality] == unique 
+[name] == ghostspear && [quality] == unique // hone sundan x1
+[name] == gildedshield && [quality] == unique // herald of zakarum
+[name] == grandcharm && [quality] == unique 
+[name] == grandcrown && [quality] == unique 
+[name] == grandcrown && [quality] == unique // crown of thieves eth
+[name] == grandcrown && [quality] == unique //crown of thieves
+[name] == greatertalons && [quality] == unique // bartuc's cut-throat
+[name] == grimhelm && [quality] == unique // vampgaze eth
+[name] == grimshield && [quality] == unique // lidless wall
+[name] == guardiancrown && [quality] == unique // arreat's face x1
+[name] == heavybelt && [quality] == unique // goldwrap
+[name] == heavybelt && [quality] == unique // goldwrap
+[name] == heavygloves && [quality] == unique // bloodfist
+[name] == hierophanttrophy && [quality] == unique // homunculus
+[name] == hydrabow && [quality] == unique //windforce
+[Name] == jewel && [quality] == unique 
+[name] == krakenshell && [quality] == unique // leviathan
+[name] == krakenshell && [quality] == unique // toothrow x1
+[name] == largecharm && [quality] == unique
+[name] == lightgauntlets && [quality] == unique // magefist
+[name] == lightplatedboots && [quality] == unique // goblin toe
+[name] == linkedmail && [quality] == unique // spirit forge eth
+[name] == luna && [quality] == unique // moser x1 (noneth/eth)
+[name] == matriarchaljavelin && [quality] == unique // thunderstroke
+[name] == mesharmor && [quality] == unique // shaftstop eth
+[name] == mightyscepter && [quality] == unique // heaven's light
+[name] == mightyscepter && [quality] == unique // redeemer
+[name] == mirroredboots && [quality] == unique // goblin toe x2
+[name] == mithrilcoil && [quality] == unique // verdungo's hearty cord
+[name] == monarch && [quality] == unique // stormshield
+[name] == myrmidongreaves && [quality] == unique // gore rider x1
+[name] == myrmidongreaves && [quality] == unique // shadow dancer
+[name] == ogreaxe && [quality] == unique // bonehew
+[name] == ogregauntlets && [quality] == unique // steelrend
+[name] == phaseblade && [quality] == unique // azurewrath
+[name] == quarterstaff && [quality] == unique //ribcracker
+[name] == ring && [quality] == unique // bk
+[name] == ring && [quality] == unique // dwarf
+[name] == ring && [quality] == unique // nagel
+[name] == ring && [quality] == unique // raven
+[name] == ring && [quality] == unique // soj
+[name] == ring && [quality] == unique // wisp
+[name] == roundshield && [quality] == unique // moser
+[name] == russetarmor && [quality] == unique // skullder's eth
+[name] == sacredarmor && [quality] == unique // templar's might
+[name] == sacredarmor && [quality] == unique // tyrael's might
+[name] == sacredrondache && [quality] == unique // alma negra
+[name] == sallet && [quality] == unique // rockstopper
+[name] == scarabshellboots && [quality] == unique // sandstorm trek
+[name] == scarabshellboots && [quality] == unique // waterwalk x1
+[name] == scourge && [quality] == unique //stormlash
+[name] == serpentskinarmor && [quality] == unique // skin of the vipermagi
+[name] == shadowplate && [quality] == unique // steel carapace
+[name] == shako && [quality] == unique // harlequin crest
+[name] == sharkskinboots && [quality] == unique //waterwalk
+[name] == sharkskingloves && [quality] == unique // bloodfist x1
+[name] == sharktootharmor && [quality] == unique // toothrow
+[name] == slayerguard && [quality] == unique // arreat's face
+[name] == slayerguard && [quality] == unique // arreat's face
+[name] == smallcharm && [quality] == unique
+[name] == spiderwebsash && [quality] == unique //arachnid mesh
+[name] == spikedshield && [quality] == unique // swordback hold
+[name] == spiredhelm && [quality] == unique // nightwing's veil
+[name] == succubusskull && [quality] == unique // boneflame
+[name] == swirlingcrystal && [quality] == unique // // oculus
+[name] == templarcoat && [quality] == unique // guardian angel eth
+[name] == thresher && [quality] == unique // the reaper's toll
+[name] == tiara && [quality] == unique //kira's guardian
+[name] == tigulatedmail && [quality] == unique // crow caw eth
+[name] == tomahawk && [quality] == unique // razor's edge
+[name] == totemicmask && [quality] == unique // jalal's mane
+[name] == trollbelt && [quality] == unique // goldwrap x2
+[name] == trollnest && [quality] == unique // head hunter's glory
+[name] == tulwar && [quality] == unique 
+[name] == tulwar && [quality] == unique // blade of ali baba
+[name] == tyrantclub && [quality] == unique //demon limb (for prebuff)
+[name] == unearthedwand && [quality] == unique //death's web
+[name] == vambraces && [quality] == unique 
+[name] == vampirebonegloves && [quality] == unique // bloodfist x2
+[name] == vampirebonegloves && [quality] == unique // dracul's grasp
+[name] == vampirefangbelt && [quality] == unique // nosferatu's coil
+[name] == warbelt && [quality] == unique // thundergod's vigor
+[name] == warboots && [quality] == unique // gore rider
+[name] == wardbow && [quality] == unique //widowmaker
+[name] == wingedaxe && [quality] == unique // lacerator
+[name] == wingedknife && [quality] == unique // warshrike
+[name] == wirefleece && [quality] == unique // gladiator's bane
+[name] == wristsword && [quality] == unique // jade talon
+[name] == wyrmhide && [quality] == unique // skin of the vipermagi x1
+[name] == wyrmhideboots && [quality] == unique // hotspur x2
+[name] == wyrmhideboots && [quality] == unique // infernostride x1
+[name] == yari && [quality] == unique // hone sundan
