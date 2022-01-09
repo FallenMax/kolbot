@@ -398,17 +398,17 @@ function LoadConfig() {
   Config.CainID.Enable = false; // Identify items at Cain
   Config.CainID.MinGold = 2500000; // Minimum gold (stash + character) to have in order to use Cain.
   Config.CainID.MinUnids = 3; // Minimum number of unid items in order to use Cain.
-  Config.FieldID = false; // Identify items in the field instead of going to town.
-  Config.DroppedItemsAnnounce.Enable = false; // Announce Dropped Items to in-game newbs
+  Config.FieldID = true; // Identify items in the field instead of going to town.
+  Config.DroppedItemsAnnounce.Enable = true; // Announce Dropped Items to in-game newbs
   Config.DroppedItemsAnnounce.Quality = []; // Quality of item to announce. See NTItemAlias.dbl for values. Example: Config.DroppedItemsAnnounce.Quality = [6, 7, 8];
 
   // Manager Item Log Screen
   Config.LogKeys = true; // Log keys on item viewer
   Config.LogOrgans = true; // Log organs on item viewer
-  Config.LogLowRunes = false; // Log low runes (El - Dol) on item viewer
+  Config.LogLowRunes = true; // Log low runes (El - Dol) on item viewer
   Config.LogMiddleRunes = true; // Log middle runes (Hel - Mal) on item viewer
   Config.LogHighRunes = true; // Log high runes (Ist - Zod) on item viewer
-  Config.LogLowGems = false; // Log low gems (chipped, flawed, normal) on item viewer
+  Config.LogLowGems = true; // Log low gems (chipped, flawed, normal) on item viewer
   Config.LogHighGems = true; // Log high gems (flawless, perfect) on item viewer
   Config.SkipLogging = []; // Custom log skip list. Set as three digit item code or classid. Example: ["tes", "ceh", 656, 657] will ignore logging of essences.
   Config.ShowCubingInfo = true; // Show cubing messages on console
@@ -519,7 +519,7 @@ function LoadConfig() {
   Config.MinGameTime = 0; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
   Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
   Config.TeleSwitch = false; // Switch to secondary (non-primary) slot when teleporting more than 5 nodes.
-  Config.OpenChests = false; // Open chests. Controls key buying.
+  Config.OpenChests = true; // Open chests. Controls key buying.
   Config.MiniShopBot = true; // Scan items in NPC shops.
   Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
   Config.TownCheck = false; // Go to town if out of potions
@@ -529,7 +529,7 @@ function LoadConfig() {
 
   // Shrine Scanner - scan for shrines while moving.
   // Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-  Config.ScanShrines = [];
+  Config.ScanShrines = ["experience", "skill"];
 
   // MF Switch
   Config.MFSwitchPercent = 0; // Boss life % to switch to non-primary weapon slot. Set to 0 to disable.
