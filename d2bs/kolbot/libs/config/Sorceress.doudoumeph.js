@@ -433,17 +433,17 @@ function LoadConfig() {
   /* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
    * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
    */
-  Config.Cubing = false; // Set to true to enable cubing.
+  Config.Cubing = true; // Set to true to enable cubing.
 
   // Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-  //Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
-  //Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
-  //Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
-  //Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-  //Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
-  //Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
-  //Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
+  Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+  Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
+  Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
+  Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
+  Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+  Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
+  Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
   //Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 
