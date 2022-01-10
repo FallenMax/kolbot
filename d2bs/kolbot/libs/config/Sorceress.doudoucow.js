@@ -20,6 +20,8 @@ function LoadConfig() {
   Config.UseMerc = true; // Use merc. This is ignored and always false in d2classic.
   Config.MercWatch = true; // Instant merc revive during battle.
 
+  Config.OpenChests = true; // Open chests. Controls key buying.
+
   Config.Inventory[0] = [0, 0, 0, 0, 1, 1, 1, 1, 1, 0];
   Config.Inventory[1] = [0, 0, 0, 0, 1, 1, 1, 1, 1, 0];
   Config.Inventory[2] = [0, 0, 0, 0, 1, 1, 1, 1, 1, 0];
