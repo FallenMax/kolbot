@@ -32,7 +32,8 @@
 [name] == perfectdiamond
 [name] == perfectskull
 
-// ([quality] == normal || [quality] == superior) && [class] == elite # [sockets] != 1 
+// any elite item
+([quality] == normal || [quality] == superior) && [class] == elite # [sockets] != 1 
 
 //--------rings----------
 
